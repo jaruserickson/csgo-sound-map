@@ -63,15 +63,28 @@ a.reference h3:hover {opacity:0.5;}
 #bck{
 	position:absolute;
 	z-index:900;
-	max-width: 80%;
+	width: 80%;
 	height: auto;
 }
 
 #map{
 	position:absolute;
 	z-index:1000;
-	max-width: 80%;
+	width: 80%;
 	height: auto;
+}
+
+#draggable {
+	width:80%;
+}
+.cursorContainer{
+	max-width:1024px;
+	max-height:1024px;
+}
+
+.mapContainer{
+	max-width:1024px;
+	max-height:1024px;
 }
 
 .dragme{
