@@ -1,6 +1,6 @@
 body{
 	font-family: 'Contrail One', cursive;
-	background: url("res/exbg.png") no-repeat #777;
+	background: url("res/exbg.png") repeat #777;
 	overflow-x:hidden;
 }
 
