@@ -1,4 +1,4 @@
 #TODO
-- test for mathematic correctness on all maps
+- make seperate containers for each map -> seperate cursors
 - mobile responsive changes?
 - aesthetic tweaks for map pages
