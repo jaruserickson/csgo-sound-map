@@ -1,0 +1,92 @@
+body{
+	font-family: 'Contrail One', cursive;
+	background: url("res/exbg.png") no-repeat #777;
+	overflow-x:hidden;
+}
+
+#title{
+	padding-top:10px;
+	font-size:70px;
+	mix-blend-mode:overlay;
+}
+
+#main{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+}
+
+ul.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+}
+
+ul.nav li {
+	display:inline;
+}
+
+ul.nav li a{
+	display: inline-block;
+	text-align: center;
+	padding: 10px 6px;
+	transition: 0.3s;
+}
+
+ul.nav li a:hover {opacity:0.5;}
+
+a.reference{text-decoration:none;}
+
+a.reference h3{
+	color:black;
+	transition: 0.3s;
+}
+
+a.reference h3:hover {opacity:0.5;}
+
+#bck{
+	position:absolute;
+	z-index:900;
+	max-width: 80%;
+	height: auto;
+}
+
+#d2{
+	position:absolute;
+	z-index:1000;
+	max-width: 80%;
+	height: auto;
+}
+
+.dragme{
+	position: fixed;
+	cursor: move;
+	z-index:1200;
+	max-width: 100%;
+	height: auto;
+}
+
+#header2{
+	opacity:0.5;
+	position:relative;
+	float:left;
+	z-index:1100;
+}
+
+#full{
+	display:inline;
+}
+
+#selector a{
+	text-decoration: none;
+	color:black;
+}
+
+#selector h3:hover{opacity:0.5;}

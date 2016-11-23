@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>cbble Sound Display</title>
+	<link rel="icon" href ="res/cbble.png" type = 'image/png'/>
+	<meta charset="utf-8"/>
+	<link href="style.css" type ="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
+</head>
+
+<body id="full">
+
+	<div id="header2">
+		<a href="index.html"><img src="res/cbble.png" style="width:100px;height:auto;margin-top:10px;"></a>
+		<h1 style="mix-blend-mode:overlay; margin-left:15px;margin-top:-15px;">cbble</h1>
+	</div>
+
+	<div class="cursorContainer">
+		<img id="draggable" class="dragme" src="Resources/Cursor_full.png">
+	</div>
+
+	<div id="c" class="mapContainer">
+		<img id="bck" src="Resources/bck_main.png">
+		<img id="d2" src="Resources/de_cbble.png">
+	</div>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script> //cursor is 180x180, map is 1024x1024, ratio of 45:256
+	$(function() {
+    	$("#draggable").draggable();
+  	});
+</script>
+</body>
+
+</html>
