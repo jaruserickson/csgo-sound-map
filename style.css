@@ -67,7 +67,7 @@ a.reference h3:hover {opacity:0.5;}
 	height: auto;
 }
 
-#d2{
+#map{
 	position:absolute;
 	z-index:1000;
 	max-width: 80%;
