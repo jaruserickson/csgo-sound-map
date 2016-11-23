@@ -11,6 +11,8 @@ body{
 }
 
 #main{
+	min-height: -webkit-min-content;
+	min-height: min-content;
 	position:absolute;
 	top:0;
 	left:0;
@@ -41,6 +43,13 @@ ul.nav li a{
 }
 
 ul.nav li a:hover {opacity:0.5;}
+
+a.me img {
+	color:black;
+	transition: 0.3s;
+}
+
+a.me img:hover {opacity:0.5;}
 
 a.reference{text-decoration:none;}
 
